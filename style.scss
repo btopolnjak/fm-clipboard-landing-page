@@ -1,0 +1,77 @@
+@use 'sass/base';
+@use 'sass/attribution';
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    min-width: 375px;
+}
+
+h1, h2, h3 {
+    color: base.$dark-grayish-blue;
+};
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    color: base.$grayish-blue;
+    font-size: 16px;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+};
+
+h3 {
+    margin-top: 2rem;
+}
+
+.logo-big {
+    margin: 7rem 0 4rem;
+}
+
+.image-computer {
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+.image-devices {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.icons-article {
+    margin-top: 4.5rem;
+}
+
+.logo-references {
+    display: block;
+    margin: 4rem auto;
+}
+
+header {
+    background: url(images/bg-header-mobile.png) no-repeat top;
+    padding: 0 2rem;
+}
+
+article {
+    padding: 0 1.75rem;
+    margin: 8rem auto;
+}
+
+
+/* Buttons */
+.green, .blue {
+    padding: 1rem 5rem;
+    display: inline-block;
+    margin: 0 auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border-style: none;
+    border-radius: 50px;
+}
